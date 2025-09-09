@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>News - VTOLIA</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="VTOLIA Logo" />
+        <h1>VTOLIA</h1>
+      </div>
+      <nav>
+        <a href="index-en.html">Home</a>
+        <a href="news-en.html">News</a>
+        <a href="news.html">Fr</a>
+        <a href="news-en.html">En</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="news">
+    <h2>Our Latest News</h2>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-date">September 2025</div>
+        <div class="timeline-content">
+          <h3>🚀 G20 YEA - South Africa</h3>
+          <p>Our founders joined the French delegation at the G20 Young Entrepreneurs Summit.</p>
+          <img src="assets/G20-team.jpeg" alt="G20 Bercy" />
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">July 2025</div>
+        <div class="timeline-content">
+          <h3>📺 France TV Interview (Antilles)</h3>
+          <p>Presentation of VTOLIA and our mission to save lives with autonomous drones.</p>
+          <img src="assets/interview.jpg" alt="Interview with Kelly Massol" />
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">June 2025</div>
+        <div class="timeline-content">
+          <h3>🇨🇦 1st Prize – Battery Summit</h3>
+          <p>Best pitch award in Canada for our BloodOwl drone solution.</p>
+          <img src="assets/shawi.png" alt="Battery Summit" />
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">May 2025</div>
+        <div class="timeline-content">
+          <h3>💡 VivaTech 2025</h3>
+          <p>VTOLIA showcased its solution at Europe’s biggest tech exhibition.</p>
+          <img src="assets/vivatech-team.png" alt="VivaTech team" />
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">2022 → 2025</div>
+        <div class="timeline-content">
+          <h3>🏅 Awards & Recognitions</h3>
+          <ul>
+            <li>Winner – Pépite Prize 2022</li>
+            <li>Finalist – Engineer of the Future Trophy 2022 (L'Usine Nouvelle)</li>
+            <li>Winner – “Booste Ton Projet” Award 2024 (Pépite 3EF)</li>
+            <li>Public Favorite Award – ESIEE Paris E4 Projects 2024</li>
+            <li>Selected – French Delegation G20 YEA 2024 (Brazil)</li>
+            <li>Labelled – “Tous Labellisés” Prize 2025 (Pépite 3EF)</li>
+            <li>1st Prize – Pitch at International Battery Summit 2025</li>
+            <li>Selected – G20 YEA 2025 Delegation (South Africa)</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BAE INNOVATION - VTOLIA</p>
+  </footer>
+</body>
+</html>
