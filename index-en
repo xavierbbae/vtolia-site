@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VTOLIA - Making the inaccessible accessible</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="VTOLIA Logo" />
+        <h1>VTOLIA</h1>
+      </div>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="news.html">Actualités</a>
+        <a href="index.html">Fr</a>
+        <a href="index-en.html">En</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="assets/logo.png" alt="VTOLIA Logo" class="hero-logo" />
+    <h2>Making the inaccessible accessible</h2>
+    <p>The all-in-one solution for logistics in isolated areas: 100% autonomous, no infrastructure needed, multi-mission capable.</p>
+  </section>
+
+  <section class="tiles">
+    <h3>A multi-purpose drone</h3>
+    <div class="tile-container">
+      <div class="tile">
+        <img src="assets/livraison.png" alt="Medical Delivery" />
+        <h4>Urgent Medical Delivery</h4>
+        <p>Transport of medicine, vaccines, blood, or defibrillators to remote or hard-to-reach zones.</p>
+      </div>
+      <div class="tile">
+        <img src="assets/cartographie.png" alt="Mapping and Crisis" />
+        <h4>Mapping & Crisis Response</h4>
+        <p>Surveillance and 3D mapping of zones affected by natural disasters or conflict.</p>
+      </div>
+      <div class="tile">
+        <img src="assets/feux.png" alt="Wildfire Monitoring" />
+        <h4>Wildfire Monitoring</h4>
+        <p>Prevention, detection, and autonomous reporting of fire risks in rural areas.</p>
+      </div>
+      <div class="tile">
+        <img src="assets/ravitaillement.png" alt="Humanitarian Supply" />
+        <h4>Humanitarian Supply</h4>
+        <p>Delivery of food, water, and essential goods to disaster or war-affected areas.</p>
+      </div>
+      <div class="tile">
+        <img src="assets/ravitaillement2.png" alt="Essential Resupply" />
+        <h4>Essential Resupply</h4>
+        <p>Medicines and food for enclaved or isolated populations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <h3>Why choose VTOLIA?</h3>
+    <div class="tile-container">
+      <div class="tile">
+        <h4>200 km range</h4>
+        <p>Record-breaking reach for a mid-size VTOL drone, with no runway required.</p>
+      </div>
+      <div class="tile">
+        <h4>40 kg payload</h4>
+        <p>Unmatched transport capacity with winch or drop-off delivery methods.</p>
+      </div>
+      <div class="tile">
+        <h4>Smart Station</h4>
+        <p>24/7 autonomous recharging with battery swap in just 15 seconds.</p>
+      </div>
+      <div class="tile">
+        <h4>Onboard AI Controller</h4>
+        <p>Optimized routing, smart planning, and weather-adaptive flight.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <h3>Our Team</h3>
+    <div class="tile-container">
+      <div class="tile">
+        <img src="assets/xavier.jpg" alt="Xavier Beaunol" />
+        <h4>
+          <a href="https://www.linkedin.com/in/xavier-beaunol/" target="_blank">Xavier Beaunol</a>
+        </h4>
+        <p>CEO - Strategy</p>
+        <p>Intelligent Systems Engineer, G20 YEA Delegate</p>
+      </div>
+
+      <div class="tile">
+        <img src="assets/emmy.jpg" alt="Emmy Cavalié" />
+        <h4>
+          <a href="https://www.linkedin.com/in/emmycavalie" target="_blank">Emmy Cavalié</a>
+        </h4>
+        <p>Ground Systems R&D</p>
+        <p>Embedded Systems Engineer, Aerospace Specialist</p>
+      </div>
+
+      <div class="tile">
+        <img src="assets/henoc.jpg" alt="Henoc Nsunda" />
+        <h4>
+          <a href="https://fr.linkedin.com/in/henocnsundakimpady" target="_blank">Henoc Nsunda Kimpady</a>
+        </h4>
+        <p>CTO - Embedded Systems</p>
+        <p>ESIEE / Heriot-Watt Engineer, G20 YEA Delegate</p>
+      </div>
+    </div>
+  </section>
+
+  <div style="text-align: center;">
+    <a class="cta-button" href="mailto:xavier.beaunol@vtolia.com">Contact us</a>
+  </div>
+
+  <section class="trust">
+    <h3>Sponsored by</h3>
+    <div class="trust-logos">
+      <img src="assets/logo-perqo.png" alt="Le Perqo" />
+      <img src="assets/logo-schoolab.png" alt="Schoolab" />
+      <img src="assets/logo-fablab.png" alt="Fablab Descartes" />
+      <img src="assets/logo-regionidf.png" alt="Région Île-de-France" />
+      <img src="assets/logo-parisest.png" alt="Paris Est Sup Pépite 3EF" />
+      <img src="assets/logo-desjardins.png" alt="Desjardins Shawinigan" />
+      <img src="assets/logo-stationf.png" alt="Station F" />
+      <img src="assets/logo-citizen.png" alt="Citizen Entrepreneurs" />
+      <img src="assets/logo-esiee.png" alt="ESIEE Paris" />
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BAE INNOVATION - VTOLIA</p>
+  </footer>
+</body>
+</html>
