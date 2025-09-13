@@ -5,8 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VTOLIA - Et l’inaccessible devient accessible</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script>
+  // Détecte la langue préférée du navigateur
+  const userLang = navigator.language || navigator.userLanguage;
+
+  // Redirige vers la version anglaise si la langue ne commence pas par "fr"
+  if (!userLang.startsWith('fr')) {
+    window.location.href = "index-en.html";
+  }
+</script>
 </head>
 <body>
+     
   <header>
     <div class="container">
       <div class="logo">
@@ -16,12 +26,14 @@
       <nav>
         <a href="index.html">Accueil</a>
         <a href="news.html">Actualités</a>
+       <a href="investor.html">Investisseur</a>        
         <a href="index.html">🇫🇷</a>
         <a href="index-en.html">🇺🇸</a>
 
       </nav>
     </div>
   </header>
+  <div class="stars"></div>
 
   <section class="hero">
       <img src="assets/logo.png" alt="Logo VTOLIA" class="hero-logo" />
